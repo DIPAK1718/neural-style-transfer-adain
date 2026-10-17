@@ -1,0 +1,48 @@
+# Python
+
+**pycache**/
+**/**pycache**/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+
+.venv/
+**/.venv/
+venv/
+env/
+
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# Editor settings
+
+.vscode/
+**/.vscode/
+
+# System files
+
+.DS_Store
+**/.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+
+*.log
+
+# Training visualizations
+
+NST_Code/experiment/final_exp/sample_iter_*.png
+
+# Generated uploads
+
+NST_Code/static/uploads/*
+!NST_Code/static/uploads/.gitkeep
